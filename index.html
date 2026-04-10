@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Usama Sabir - Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<header class="top-header">
+    <h1>Usama Sabir</h1>
+    <p>ADP-CS Student | Future Web & Software Developer</p>
+</header>
+
+<nav>
+    <div class="logo">Portfolio</div>
+
+    <div class="menu-toggle" onclick="toggleMenu()">
+        <i class="fas fa-bars"></i>
+    </div>
+
+    <div class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</nav>
+
+<section class="container">
+
+    <h2>Welcome 👋</h2>
+
+    <img src="images/profile.jpg" alt="Profile Photo" class="profile-img">
+
+    <br><br>
+
+    <a href="contact.html">
+        <button>Hire Me</button>
+    </a>
+
+    <p>
+        Hello! I’m <b>Usama Sabir</b>, a developer who loves turning ideas into simple,
+        functional, and responsive websites.
+    </p>
+
+    <p><b>Internship:</b> University of Education, Lahore</p>
+    <p><b>Internship:</b> ISPR, Sialkot</p>
+
+</section>
+
+<footer class="footer">
+    <h3>Socials</h3>
+
+    <div class="Socials-links">
+
+        <a href="mailto:usamasabir609@email.com">
+            <i class="fas fa-envelope"></i> Email
+        </a>
+
+        <a href="https://github.com/Usama-Sabir" target="_blank">
+            <i class="fab fa-github"></i> GitHub
+        </a>
+
+        <a href="https://linkedin.com/in/usama-sabir-35101032b/" target="_blank">
+            <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+
+        <p>📍 Pakistan</p>
+        <p>© 2026 Usama Sabir. All Rights Reserved.</p>
+
+    </div>
+</footer>
+
+<script>
+function toggleMenu() {
+    document.getElementById("navLinks").classList.toggle("active");
+}
+</script>
+
+</body>
+</html>

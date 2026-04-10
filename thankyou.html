@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thank You</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Message Sent Successfully ✅</h1>
+</header>
+
+<nav>
+    <div class="logo">Portfolio</div>
+
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+    <div class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</nav>
+
+<section class="container" style="text-align:center;">
+
+    <h2>🎉 Thank You!</h2>
+
+    <p>
+        I have received your message successfully.  
+        I will reply to you as soon as possible.
+    </p>
+
+    <a href="index.html">
+        <button>Back to Home</button>
+    </a>
+
+</section>
+
+<script>
+function toggleMenu() {
+    document.getElementById("navLinks").classList.toggle("active");
+}
+</script>
+
+</body>
+</html>

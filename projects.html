@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Projects</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>My Projects</h1>
+</header>
+
+<nav>
+    <div class="logo">Portfolio</div>
+
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+    <div class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</nav>
+
+<section class="container">
+
+    <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>Built to showcase my skills, projects, and experience in a professional way.</p>
+    </div>
+
+    <div class="project-card">
+        <h3>Online Movie Booking Website</h3>
+        <p>Users can browse movies, check showtimes, and book tickets online easily.</p>
+    </div>
+
+    <div class="project-card">
+        <h3>Expense Tracker</h3>
+        <p>Track income & expenses, categorize transactions, and visualize spending with charts.</p>
+    </div>
+
+    <div class="project-card">
+        <h3>To-Do List App (Android)</h3>
+        <p>Kotlin-based mobile app to add, view, and delete daily tasks efficiently.</p>
+    </div>
+
+</section>
+
+<script>
+function toggleMenu() {
+    var menu = document.getElementById("navLinks");
+    menu.classList.toggle("active");
+}
+</script>
+
+</body>
+</html>

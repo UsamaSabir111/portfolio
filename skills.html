@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Skills</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<header>
+    <h1>My Skills</h1>
+</header>
+
+<nav>
+    <div class="logo">Portfolio</div>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+    <div class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</nav>
+
+<section class="container" id="skills">
+
+    <!-- Database -->
+    <h2>Database</h2>
+    <table class="skills-table database">
+        <tr><th>Skill</th><th>Level</th></tr>
+        <tr>
+            <td><i class="fas fa-database"></i> PostgreSQL</td>
+            <td><div class="progress"><div class="progress-bar" style="--bar-width:70%">70%</div></div></td>
+        </tr>
+        <tr>
+            <td><i class="fas fa-server"></i> pgAdmin 4</td>
+            <td><div class="progress"><div class="progress-bar" style="--bar-width:75%">75%</div></div></td>
+        </tr>
+    </table>
+
+    <!-- Programming -->
+    <h2>Programming</h2>
+    <table class="skills-table programming">
+        <tr><th>Skill</th><th>Level</th></tr>
+        <tr>
+            <td><i class="fab fa-python"></i> Python</td>
+            <td><div class="progress"><div class="progress-bar" style="--bar-width:50%">50%</div></div></td>
+        </tr>
+        <tr>
+            <td><i class="fas fa-code"></i> C++</td>
+            <td><div class="progress"><div class="progress-bar" style="--bar-width:65%">65%</div></div></td>
+        </tr>
+        <tr>
+            <td><i class="fab fa-js-square"></i> JavaScript</td>
+            <td><div class="progress"><div class="progress-bar" style="--bar-width:60%">60%</div></div></td>
+        </tr>
+        <tr>
+            <td><i class="fab fa-html5"></i> HTML</td>
+            <td><div class="progress"><div class="progress-bar" style="--bar-width:75%">75%</div></div></td>
+        </tr>
+        <tr>
+            <td><i class="fab fa-css3-alt"></i> CSS</td>
+            <td><div class="progress"><div class="progress-bar" style="--bar-width:70%">70%</div></div></td>
+        </tr>
+    </table>
+
+    <!-- Tools -->
+    <h2>Tools</h2>
+    <table class="skills-table tools">
+        <tr><th>Skill</th><th>Level</th></tr>
+        <tr>
+            <td><i class="fab fa-github"></i> GitHub</td>
+            <td><div class="progress"><div class="progress-bar" style="--bar-width:85%">85%</div></div></td>
+        </tr>
+        <tr>
+            <td><i class="fas fa-box"></i> Oracle VirtualBox</td>
+            <td><div class="progress"><div class="progress-bar" style="--bar-width:75%">75%</div></div></td>
+        </tr>
+    </table>
+
+</section>
+
+<script>
+function toggleMenu() {
+    var menu = document.getElementById("navLinks");
+    menu.classList.toggle("active");
+}
+</script>
+
+</body>
+</html>
